@@ -29,3 +29,20 @@ const getData = async() => {
 
 //  If any promise passed to Promise.all() rejects, the Promise.all() itself immediately
 //  rejects with that rejection reason. It does not return the successful results of the other promises.
+
+
+
+// If you're using try...catch:
+try {
+    const result = await Promise.all([
+        fetch("/api/users"),
+        fetch("/api/products"),
+        fetch("/api/orders")
+    ]);
+
+    console.log(result);
+} catch (error) {
+    console.log("Error:", error);
+}
+
+// The catch block handles the rejection.

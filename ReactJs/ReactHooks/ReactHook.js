@@ -16,12 +16,3 @@ Hooks made it possible to manage these features directly inside functional compo
 
 */
 
-import { useState } from "react";
-
-function Counter(){
- const[count, setCount] = useState(0);
-
- return(
-  <button onClick={()=> setCount(count+1)}> Increase </button>
- );
-}
