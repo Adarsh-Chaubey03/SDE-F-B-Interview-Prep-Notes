@@ -26,3 +26,6 @@ const getData = async() => {
     console.log(usersData);
     console.log(productsData);
 }
+
+//  If any promise passed to Promise.all() rejects, the Promise.all() itself immediately
+//  rejects with that rejection reason. It does not return the successful results of the other promises.
