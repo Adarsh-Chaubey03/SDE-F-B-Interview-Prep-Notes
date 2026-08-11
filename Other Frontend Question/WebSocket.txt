@@ -1,0 +1,24 @@
+How would you build a chat application where multiple users can communicate at the same time?
+
+WebSocket
+Client ←────────→ Server
+       persistent
+       connection
+
+WebSocket is a communication protocol that provides a persistent, full-duplex connection between a client and a server
+over a single TCP connection.
+It is commonly used for real-time applications such as chat applications, live notifications, online gaming, live tracking,
+and real-time dashboards.
+
+Client
+   │
+   │ WebSocket Handshake
+   ↓
+Server
+   │
+   │ Connection Established
+   ↓
+Persistent Connection
+   ↕
+Client ↔ Server
+
