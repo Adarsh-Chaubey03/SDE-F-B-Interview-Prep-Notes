@@ -26,6 +26,5 @@ fetchData().then(
 
 
 
-// use of async and await in js
-// async returns a promise
-//await - pause the execution of the code until the promise is resolved and then returns the resolved value
+
+
