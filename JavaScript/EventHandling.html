@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+</head>
+
+<body>
+
+<div id="topDiv">
+    outer div
+
+    <div id="midDiv">
+        mid div
+
+        <div id="innerDiv">
+            inner div
+        </div>
+
+    </div>
+</div>
+
+<script>
+    document.getElementById("topDiv").addEventListener("click", () => {
+        console.log("outer div has been clicked");
+    },true);
+
+    document.getElementById("midDiv").addEventListener("click", () => {
+        console.log("mid div has been clicked");
+    },true);
+
+    document.getElementById("innerDiv").addEventListener("click", () => {
+        console.log("inner div has been clicked");
+    },true);
+</script>
+
+</body>
+</html>
