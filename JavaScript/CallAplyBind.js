@@ -1,5 +1,4 @@
 
-
 function cook(ing1, ing2) {
     console.log(`${this.name} is having meal with ${ing1} and ${ing2}`);
 }

@@ -1,5 +1,10 @@
 <!-- Event delegation means handling events of multiple child elements using a single event listener on their parent.
-It improves performance, supports dynamically added child elements, and keeps the code cleaner. -->
+It improves performance, supports dynamically added child elements, and keeps the code cleaner.
+
+Event delegation means you attach a single event listener to a common ancestor element (like a parent), rather than each child. 
+When an event bubbles up from a child, the parent handles it, determining the target.
+
+This saves memory, simplifies code, and works well for dynamic elements.-->
 
 <!DOCTYPE html>
 <html lang="en">

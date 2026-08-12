@@ -1,0 +1,1 @@
+A React fragment is a lightweight wrapper that lets you group multiple elements without adding an extra node to the DOM. You’d use them when you need to return multiple sibling elements but don’t want an unnecessary wrapper like a div.

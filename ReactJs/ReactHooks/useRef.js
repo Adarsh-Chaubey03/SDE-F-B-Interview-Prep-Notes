@@ -26,3 +26,12 @@ function App() {
 }
 
 export default App;
+
+// useRef lets you hold onto something between renders without causing re-renders. 
+// A real-world example: you can use useRef to store a reference to an input element so that when a user clicks a button, you programmatically focus that input
+
+
+// Imagine you have a sticky note that you keep on your desk. That sticky note can hold a number, a word, or a reminder. 
+// useRef is like that sticky note—it lets you save something (like an input box) and keep it there between page updates. 
+// For example, if you want to focus an input field when a user clicks a button, you use useRef to point to that input and 
+// tell it, “Hey, focus now!”

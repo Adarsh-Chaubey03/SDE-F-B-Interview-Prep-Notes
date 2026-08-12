@@ -13,3 +13,8 @@ async function fetchData() {
 }
 
 fetchData();
+
+
+// synchronous code runs line by line, blocking further execution until each task finishes,
+//  while asynchronous code allows non-blocking operations, so other code can run while waiting for tasks (like I/O) to complete. 
+// JavaScript handles asynchrony using its event loop, along with callbacks, promises, and async/await.

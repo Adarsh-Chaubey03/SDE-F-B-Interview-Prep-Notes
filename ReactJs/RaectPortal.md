@@ -1,0 +1,3 @@
+A React portal allows you to render a child component into a different part of the DOM, outside the parent hierarchy.
+
+Imagine you have a button inside a small box, and when you click it, a big modal (like a pop-up) should appear centered on the whole screen. Without portals, that pop-up would be stuck inside the small box. With a portal, you can say, "Show this pop-up at the top-level of the page," even though the button is inside a smaller part. So, the portal helps you display something in a different place in the webpage, making sure it appears exactly where you want.

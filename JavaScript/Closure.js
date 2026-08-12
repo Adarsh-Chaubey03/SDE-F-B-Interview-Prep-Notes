@@ -1,4 +1,5 @@
 // a fn that remembers the env in which it is created even after the outer fn has finished its execution
+// This is useful for data privacy, maintaining state between function calls, and creating function factories.
 
 // function outerF(){
 //     let out = " this is outer"
