@@ -36,6 +36,7 @@ WHERE salary = (
     WHERE department = e.department
 );
 
+
 SELECT employee_name, department, salary
 FROM employees e
 WHERE salary > (
@@ -43,7 +44,6 @@ WHERE salary > (
     FROM employees
     WHERE department = e.department
 );
-
 
 -- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
