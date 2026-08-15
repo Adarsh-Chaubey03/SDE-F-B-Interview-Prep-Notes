@@ -1,4 +1,3 @@
-
 USE fisher_jordan;
 
 CREATE TABLE employees (
@@ -18,20 +17,16 @@ VALUES
 (6, 'Frank', 'Sales', 85000),
 (7, 'Grace', 'IT', 75000);
 
-
-
 SELECT department, AVG(salary) AS avg_salary
 FROM employees
 GROUP BY department
 HAVING AVG(salary) > 70000;
-
 
 SELECT salary
 FROM employees
 WHERE salary < (SELECT MAX(salary) FROM employees)
 ORDER BY salary DESC
 LIMIT 1;
-
 
 SELECT employee_name, department, salary
 FROM employees e
@@ -50,8 +45,8 @@ WHERE salary > (
 );
 
 
-
 -- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 CREATE TABLE customers (
     customer_id INT,
     customer_name VARCHAR(100),
@@ -71,4 +66,4 @@ GROUP BY email
 HAVING COUNT(email) > 1;
 
 
---  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+--  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
