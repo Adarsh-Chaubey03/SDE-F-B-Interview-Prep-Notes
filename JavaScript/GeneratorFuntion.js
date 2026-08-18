@@ -1,15 +1,15 @@
-// GENERATOR FUNCTION 
-
+// GENERATOR FUNCTION
+//
 // A generator function is a function that can pause its execution using `yield`
 // and resume from where it stopped when `next()` is called.
-
+//
 // Syntax:
-
-function* functionName() {
-    yield value;
-}
-
-Example:
+//
+// function* functionName() {
+//     yield value;
+// }
+//
+// Example:
 
 function* infiniteSequence() {
     let num = 1;
