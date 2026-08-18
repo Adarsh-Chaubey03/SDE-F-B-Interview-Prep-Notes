@@ -1,15 +1,16 @@
-// Immediately Invoked Function Expression
+// Immediately Invoked Function Expression (IIFE)
+// A function that is executed immediately after it is defined.
 
-// normal fucntion 
-function greet(){
-    console.log(("Hello World"))
+// Normal function
+function greet() {
+    console.log("Hello World");
 }
 
-// prints only when called
-greet()
-
+// Prints only when explicitly called
+greet();
 
 // IIFE
+// Executes immediately without needing a separate function call.
 ;(function() {
     console.log("IIFE");
 })();
