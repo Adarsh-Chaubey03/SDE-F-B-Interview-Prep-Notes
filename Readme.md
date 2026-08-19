@@ -1,6 +1,6 @@
 # Software Engineering Interview Prep
 
-A personal repository created during my preparation for **Fisher Jordan and other software engineering interviews**.
+A personal repository created during my preparation for **software engineering interviews**.
 
 It contains notes, interview questions, DSA problems, SQL practice, and important concepts across **DSA, Backend, JavaScript, React.js, Frontend, and Core CS subjects**.
 
