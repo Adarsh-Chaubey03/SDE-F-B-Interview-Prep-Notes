@@ -27,20 +27,13 @@ React is a JavaScript library for building user interfaces.
 Next.js is a framework built on top of React and provides additional
 application-level features.
 
-  -----------------------------------------------------------------------
-  React.js                            Next.js
-  ----------------------------------- -----------------------------------
-  UI library                          React framework
+ | **React.js**                                 | **Next.js**                                   |
+| -------------------------------------------- | --------------------------------------------- |
+| UI library                                   | React framework                               |
+| Routing usually requires a separate library  | Built-in file-system routing                  |
+| Primarily client-side rendering by default   | Supports multiple rendering strategies        |
+| More setup and configuration may be required | Provides application-level conventions and fe |
 
-  Routing usually needs a separate    Built-in file-system routing
-  library                             
-
-  Rendering is primarily client-side  Supports multiple rendering
-  by default                          strategies
-
-  More setup may be required          Provides application-level
-                                      conventions
-  -----------------------------------------------------------------------
 
 **Simple answer:**
 
