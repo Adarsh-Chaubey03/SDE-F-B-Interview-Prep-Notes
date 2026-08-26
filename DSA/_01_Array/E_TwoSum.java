@@ -40,3 +40,6 @@ public class E_TwoSum {
         System.out.println(Arrays.toString(twoSum(arr, target)));
     }
 }
+
+// TC O(N)
+// SC O(N)
