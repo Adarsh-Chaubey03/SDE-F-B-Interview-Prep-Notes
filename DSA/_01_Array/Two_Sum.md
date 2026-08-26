@@ -1,16 +1,22 @@
-package DSA._01_Array;
+# Two Sum
+
+## Question
+
+Given an integer array `nums` and an integer `target`, return the indices of the two numbers such that they add up to `target`.
+
+Each input has exactly one solution.
+
+You may not use the same element twice.
+
+Return the answer in any order.
+
+## Code
+
+```java
+package _01_Array;
+
 import java.util.Arrays;
 import java.util.HashMap;
-
-/*
- * Given an integer array nums and an integer target,
- * return the indices of the two numbers such that
- * they add up to target.
- *
- * Each input has exactly one solution.
- * You may not use the same element twice.
- * Return the answer in any order.
- */
 
 public class E_TwoSum {
 
@@ -41,5 +47,6 @@ public class E_TwoSum {
     }
 }
 
-// TC O(N)
-// SC O(N)
+// TC: O(N)
+// SC: O(N)
+```

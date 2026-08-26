@@ -1,12 +1,17 @@
-package DSA._03_String;
+# Valid Anagram
 
-/*
- * Given two strings s and t, return true if t is an anagram of s,
- * and false otherwise.
- *
- * Input:  s = "anagram", t = "nagaram"
- * Output: true
- */
+## Question
+
+Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
+
+**Input:** `s = "anagram"`, `t = "nagaram"`
+
+**Output:** `true`
+
+## Code
+
+```java
+package _03_String;
 
 public class E_ValidAnagram {
 
@@ -30,6 +35,7 @@ public class E_ValidAnagram {
 
             // Every frequency should be zero
             for (int i = 0; i < 26; i++) {
+
                 if (freq[i] != 0) {
                     return false;
                 }
@@ -50,3 +56,4 @@ public class E_ValidAnagram {
 
 // TC: O(n)
 // SC: O(1)
+```
