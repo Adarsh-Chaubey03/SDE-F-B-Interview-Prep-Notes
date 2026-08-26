@@ -47,3 +47,6 @@ public class E_ValidAnagram {
         System.out.println(Solution.isAnagram(s, t));
     }
 }
+
+// TC: O(n)
+// SC: O(1)
