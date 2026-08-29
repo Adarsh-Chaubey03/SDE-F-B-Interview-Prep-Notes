@@ -2,7 +2,6 @@
 
 ### Most Important Core Java Revision — SDE Interviews
 
-> **Purpose:** Final revision checklist for Core Java interviews.  
 > These 36 questions are the highest-priority unique questions selected from the complete Java preparation set. Each question also covers its important interview follow-ups.
 
 ---
