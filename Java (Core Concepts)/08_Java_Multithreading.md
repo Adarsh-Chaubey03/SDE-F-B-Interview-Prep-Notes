@@ -1,8 +1,8 @@
-# 08. Java Multithreading — MUST KNOW
+# Java Multithreading Concepts
 
 ### Priority: Extremely High
 
-## 1. What is a thread?
+## Q88. What is a thread?
 
 ### Definition
 
@@ -32,7 +32,7 @@ class Test extends Thread {
 
 ---
 
-## 2. What is multithreading?
+## Q89. What is multithreading?
 
 ### Definition
 
@@ -77,7 +77,7 @@ It can help with:
 
 ---
 
-## 3. Process vs Thread?
+## Q90. Process vs Thread?
 
 ### Definition
 
@@ -113,7 +113,7 @@ Threads share process resources such as heap memory, but each thread has its own
 
 ---
 
-## 4. How do you create a thread in Java?
+## Q91. How do you create a thread in Java?
 
 ### Definition
 
@@ -185,7 +185,7 @@ executor.shutdown();
 
 ---
 
-## 5. Thread class vs Runnable interface?
+## Q92. Thread class vs Runnable interface?
 
 ### Comparison
 
@@ -241,7 +241,7 @@ it can still extend another class.
 
 ---
 
-## 6. What is the thread lifecycle?
+## Q93. What is the thread lifecycle?
 
 ### Definition
 
@@ -341,7 +341,7 @@ Java's `Thread.State` does not have a separate `RUNNING` state. Running and read
 
 ---
 
-## 7. What does `start()` do?
+## Q94. What does `start()` do?
 
 ### Definition
 
@@ -383,7 +383,7 @@ Calling `start()` does not guarantee that the thread executes immediately. The s
 
 ---
 
-## 8. Difference between `start()` and `run()`?
+## Q95. Difference between `start()` and `run()`?
 
 ### Definition
 
@@ -427,7 +427,7 @@ A `Thread` object cannot be successfully started more than once.
 
 ---
 
-## 9. What is synchronization?
+## Q96. What is synchronization?
 
 ### Definition
 
@@ -456,7 +456,7 @@ The `synchronized` method protects the update so that only one thread at a time 
 
 ---
 
-## 10. Why do we need synchronization?
+## Q97. Why do we need synchronization?
 
 ### Definition
 
@@ -527,7 +527,7 @@ synchronized void increment() {
 
 ---
 
-## 11. What is a race condition?
+## Q98. What is a race condition?
 
 ### Definition
 
@@ -576,7 +576,7 @@ count.incrementAndGet();
 
 ---
 
-## 12. What is a deadlock?
+## Q99. What is a deadlock?
 
 ### Definition
 
@@ -666,7 +666,7 @@ Breaking any one of these can prevent deadlock.
 
 ---
 
-## 13. What is `synchronized`?
+## Q100. What is `synchronized`?
 
 ### Definition
 
@@ -731,7 +731,7 @@ This can reduce unnecessary lock contention compared with synchronizing a whole 
 
 ---
 
-## 14. What is `volatile`?
+## Q101. What is `volatile`?
 
 ### Definition
 
@@ -815,7 +815,7 @@ or synchronization.
 
 ---
 
-## 15. Difference between `sleep()`, `wait()`, and `join()`?
+## Q102. Difference between `sleep()`, `wait()`, and `join()`?
 
 ### `sleep()`
 
@@ -912,7 +912,7 @@ join()  → wait for another thread to finish
 
 ---
 
-## 16. What is thread safety?
+## Q103. What is thread safety?
 
 ### Definition
 

@@ -1,4 +1,4 @@
-# C. Classes, Objects & Constructors — Q36–45
+# Classes Objects and Constructors
 
 ## Q36. What is a class?
 

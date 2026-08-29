@@ -1,6 +1,6 @@
-# OOP in Java
+# Object-Oriented Java Programming
 
-## Q1. What are the four pillars of OOP?
+## Q16. What are the four pillars of OOP?
 
 ### Answer
 The four pillars of Object-Oriented Programming are:
@@ -38,7 +38,7 @@ Here:
 
 ---
 
-## Q2. Explain encapsulation with a real-world example.
+## Q17. Explain encapsulation with a real-world example.
 
 ### Answer
 **Encapsulation** means bundling data and the methods that operate on that data into a class and restricting direct access to the internal state.
@@ -91,7 +91,7 @@ because `balance` is `private`.
 
 ---
 
-## Q3. Explain inheritance with a Java example.
+## Q18. Explain inheritance with a Java example.
 
 ### Answer
 **Inheritance** allows one class to acquire accessible properties and methods of another class.
@@ -141,7 +141,7 @@ Constructors are **not inherited**, and `private` members are not directly acces
 
 ---
 
-## Q4. Explain polymorphism with a Java example.
+## Q19. Explain polymorphism with a Java example.
 
 ### Answer
 **Polymorphism means "many forms."** It allows the same method name, reference, or interface to represent different behavior depending on the situation.
@@ -193,7 +193,7 @@ The reference type is `Animal`, but the actual object determines which overridde
 
 ---
 
-## Q5. Explain abstraction with a Java example.
+## Q20. Explain abstraction with a Java example.
 
 ### Answer
 **Abstraction means hiding implementation details and exposing only the essential functionality.**
@@ -228,7 +228,7 @@ Abstraction can be achieved using:
 
 ---
 
-## Q6. What is the difference between abstraction and encapsulation?
+## Q21. What is the difference between abstraction and encapsulation?
 
 ### Answer
 
@@ -262,7 +262,7 @@ class Car {
 
 ---
 
-## Q7. What is the difference between inheritance and composition?
+## Q22. What is the difference between inheritance and composition?
 
 ### Answer
 
@@ -324,7 +324,7 @@ Composition is not always better; inheritance is appropriate when a genuine subt
 
 ---
 
-## Q8. What is method overloading?
+## Q23. What is method overloading?
 
 ### Answer
 **Method overloading** means defining multiple methods with the same name but different parameter lists.
@@ -362,7 +362,7 @@ Changing only the return type does **not** create a valid overloaded method.
 
 ---
 
-## Q9. What is method overriding?
+## Q24. What is method overriding?
 
 ### Answer
 **Method overriding occurs when a subclass provides its own implementation of an inherited overridable instance method with the same signature.**
@@ -409,7 +409,7 @@ Use `@Override` so the compiler can verify the overriding relationship.
 
 ---
 
-## Q10. Difference between method overloading and method overriding?
+## Q25. Difference between method overloading and method overriding?
 
 ### Answer
 
@@ -448,7 +448,7 @@ class Dog extends Animal {
 
 ---
 
-## Q11. Can we overload a method by changing only its return type?
+## Q26. Can we overload a method by changing only its return type?
 
 ### Answer
 **No.**
@@ -490,7 +490,7 @@ Here the parameter types are different, so the methods are overloaded.
 
 ---
 
-## Q12. Can a static method be overridden?
+## Q27. Can a static method be overridden?
 
 ### Answer
 **No. Static methods are not overridden. They are hidden when a subclass declares a static method with the same signature.**
@@ -564,7 +564,7 @@ This is runtime overriding.
 
 ---
 
-## Q13. What is dynamic method dispatch?
+## Q28. What is dynamic method dispatch?
 
 ### Answer
 **Dynamic method dispatch** is the mechanism by which Java selects an overridden instance method at runtime based on the actual object.
@@ -613,7 +613,7 @@ The reference type is `Animal`, but the actual object is `Dog` or `Cat`. Java th
 
 ---
 
-## Q14. What is an abstract class?
+## Q29. What is an abstract class?
 
 ### Answer
 An **abstract class** is a class declared using the `abstract` keyword that cannot be directly instantiated.
@@ -666,7 +666,7 @@ Use it when related classes should share common state or implementation while su
 
 ---
 
-## Q15. What is an interface?
+## Q30. What is an interface?
 
 ### Answer
 An **interface** defines a contract that implementing classes agree to follow.
@@ -717,7 +717,7 @@ This provides multiple contracts/capabilities without multiple class inheritance
 
 ---
 
-## Q16. Difference between abstract class and interface?
+## Q31. Difference between abstract class and interface?
 
 ### Answer
 
@@ -761,7 +761,7 @@ Use an **interface** when you want to define a contract or capability that can b
 
 ---
 
-## Q17. Can an abstract class have a constructor?
+## Q32. Can an abstract class have a constructor?
 
 ### Answer
 **Yes.**
@@ -807,7 +807,7 @@ Constructors are not inherited, but a superclass constructor is invoked during s
 
 ---
 
-## Q18. Can an interface have methods with implementation?
+## Q33. Can an interface have methods with implementation?
 
 ### Answer
 **Yes.**
@@ -867,7 +867,7 @@ They allow interfaces to evolve by adding behavior without requiring every exist
 
 ---
 
-## Q19. What is multiple inheritance? Does Java support it?
+## Q34. What is multiple inheritance? Does Java support it?
 
 ### Answer
 **Multiple inheritance** means a class directly inherits from more than one parent class.
@@ -936,7 +936,7 @@ class C implements A, B {
 
 ---
 
-## Q20. Why does Java use interfaces to achieve multiple inheritance?
+## Q35. Why does Java use interfaces to achieve multiple inheritance?
 
 ### Answer
 Java uses interfaces to allow a class to implement multiple **contracts or capabilities** without allowing multiple class inheritance.

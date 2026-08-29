@@ -1,5 +1,6 @@
+# Java Exceptions and Garbage Collection
 
-## Q89. What is an exception?
+## Q76. What is an exception?
 
 ### Definition
 An **exception** is an abnormal event that occurs during program execution and disrupts the normal flow of a program.
@@ -37,7 +38,7 @@ Cannot divide by zero
 
 ---
 
-## Q90. Difference between checked and unchecked exceptions?
+## Q77. Difference between checked and unchecked exceptions?
 
 ### Definition
 Java exceptions are broadly divided into **checked** and **unchecked** exceptions.
@@ -100,7 +101,7 @@ Unchecked → compiler does not force handling/declaring
 
 ---
 
-## Q91. Difference between Error and Exception?
+## Q78. Difference between Error and Exception?
 
 ### Definition
 
@@ -149,7 +150,7 @@ Do not say that Errors can never be caught. `Error` is a `Throwable`, so Java te
 
 ---
 
-## Q92. Explain `try`, `catch`, and `finally`.
+## Q79. Explain `try`, `catch`, and `finally`.
 
 ### Definition
 
@@ -201,7 +202,7 @@ try (FileReader file = new FileReader("data.txt")) {
 
 ---
 
-## Q93. Can we have multiple catch blocks?
+## Q80. Can we have multiple catch blocks?
 
 ### Answer
 **Yes.**
@@ -265,7 +266,7 @@ catch (IOException | SQLException e) {
 
 ---
 
-## Q94. Can `finally` execute without `catch`?
+## Q81. Can `finally` execute without `catch`?
 
 ### Answer
 **Yes.**
@@ -328,7 +329,7 @@ The JVM terminates before `finally` can execute.
 
 ---
 
-## Q95. Difference between `throw` and `throws`?
+## Q82. Difference between `throw` and `throws`?
 
 ### Definition
 
@@ -379,7 +380,7 @@ throws → declare it
 
 ---
 
-## Q96. How do you create a custom exception?
+## Q83. How do you create a custom exception?
 
 ### Definition
 
@@ -449,11 +450,11 @@ The compiler does not require callers to catch or declare it.
 
 ---
 
-# JVM & Garbage Collection — Q97–100
+## JVM and Garbage Collection
 
 ### Priority: High
 
-## Q97. What is garbage collection in Java?
+## Q84. What is garbage collection in Java?
 
 ### Definition
 
@@ -500,7 +501,7 @@ The JVM decides when and how garbage collection occurs.
 
 ---
 
-## Q98. How does Java's garbage collector work at a high level?
+## Q85. How does Java's garbage collector work at a high level?
 
 ### Definition
 
@@ -577,7 +578,7 @@ Shenandoah
 
 ---
 
-## Q99. What is the difference between stack, heap, and method-area memory?
+## Q86. What is the difference between stack, heap, and method-area memory?
 
 ### 1. Stack
 
@@ -666,7 +667,7 @@ That is an oversimplification. Local primitive variables are commonly associated
 
 ---
 
-## Q100. What are minor GC and major/full GC?
+## Q87. What are minor GC and major/full GC?
 
 ### Definition
 

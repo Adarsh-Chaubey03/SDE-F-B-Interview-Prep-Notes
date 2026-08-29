@@ -1,4 +1,4 @@
-# `static`, `final`, `this`, `super` — Keywords
+# Java Keywords and Modifiers
 
 ## Q46. What is the `static` keyword?
 

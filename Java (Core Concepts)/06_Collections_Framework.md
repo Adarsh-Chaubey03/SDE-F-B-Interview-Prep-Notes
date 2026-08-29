@@ -1,8 +1,8 @@
-# G. Collections Framework — Q76–88
+# Java Collections Framework
 
 ### Priority: Extremely High
 
-## Q76. What is the Java Collections Framework?
+## Q63. What is the Java Collections Framework?
 
 ### Definition
 
@@ -65,7 +65,7 @@ Output:
 
 ---
 
-## Q77. Difference between `Collection` and `Collections`?
+## Q64. Difference between `Collection` and `Collections`?
 
 ### Definition
 
@@ -130,7 +130,7 @@ Output:
 
 ---
 
-## Q78. Difference between `List`, `Set`, and `Map`?
+## Q65. Difference between `List`, `Set`, and `Map`?
 
 ### Definition
 
@@ -219,7 +219,7 @@ Conceptually:
 
 ---
 
-## Q79. Difference between `ArrayList` and `LinkedList`?
+## Q66. Difference between `ArrayList` and `LinkedList`?
 
 ### Definition
 
@@ -281,7 +281,7 @@ Finding the required position can take O(n). The actual link adjustment is O(1) 
 
 ---
 
-## Q80. ArrayList vs Vector?
+## Q67. ArrayList vs Vector?
 
 ### Definition
 
@@ -322,7 +322,7 @@ For concurrent use, choose an appropriate concurrent collection based on the act
 
 ---
 
-## Q81. ArrayList vs Stack?
+## Q68. ArrayList vs Stack?
 
 ### Definition
 
@@ -393,7 +393,7 @@ Output:
 
 ---
 
-## Q82. HashSet vs LinkedHashSet vs TreeSet?
+## Q69. HashSet vs LinkedHashSet vs TreeSet?
 
 ### Definition
 
@@ -474,7 +474,7 @@ Need sorted elements
 
 ---
 
-## Q83. HashMap vs Hashtable?
+## Q70. HashMap vs Hashtable?
 
 ### Definition
 
@@ -527,7 +527,7 @@ For concurrent access, consider an appropriate concurrent collection such as `Co
 
 ---
 
-## Q84. HashMap vs ConcurrentHashMap?
+## Q71. HashMap vs ConcurrentHashMap?
 
 ### Definition
 
@@ -588,7 +588,7 @@ This is particularly important for concurrent operations.
 
 ---
 
-## Q85. How does HashMap work internally?
+## Q72. How does HashMap work internally?
 
 ### Definition
 
@@ -733,7 +733,7 @@ Resizing increases the table capacity and redistributes entries.
 
 ---
 
-## Q86. What is hashing?
+## Q73. What is hashing?
 
 ### Definition
 
@@ -785,7 +785,7 @@ Hashing allows data structures such as `HashMap` and `HashSet` to perform lookup
 
 ---
 
-## Q87. What happens when two keys have the same hash code?
+## Q74. What happens when two keys have the same hash code?
 
 ### Definition
 
@@ -850,7 +850,7 @@ Here every `Person` deliberately has the same hash code, but `equals()` distingu
 
 ---
 
-## Q88. Why are `equals()` and `hashCode()` related?
+## Q75. Why are `equals()` and `hashCode()` related?
 
 ### Definition
 
