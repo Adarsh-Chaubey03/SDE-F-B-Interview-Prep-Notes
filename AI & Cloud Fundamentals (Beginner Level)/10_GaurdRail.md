@@ -635,22 +635,4 @@ Final Answer
 
 Therefore, guardrails should potentially cover **multiple intervention points**, not just the final answer.
 
-This is one of the most important differences between traditional chatbot safety and **agent safety**. [Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/guardrails/intervention-points?utm_source=chatgpt.com)
-
----
-
-# 24. Important Assessment Distinctions
-
-| Concept | Main purpose |
-|---|---|
-| **Input guardrail** | Inspect incoming request |
-| **Output guardrail** | Inspect generated response |
-| **Prompt injection protection** | Detect malicious instructions |
-| **PII protection** | Detect/protect sensitive information |
-| **Content safety** | Detect harmful content |
-| **Groundedness** | Check support from provided evidence |
-| **Task adherence** | Check whether requested task was followed |
-| **Tool-call guardrail** | Control agent actions |
-| **Authorization** | Determine permitted access/actions |
-| **Human-in-the-loop** | Human decision for sensitive/ambiguous cases |
-| **Defense in depth** | Multiple protective layers |
+This is one of the most important differences between traditional chatbot safety and **agent safety**.
