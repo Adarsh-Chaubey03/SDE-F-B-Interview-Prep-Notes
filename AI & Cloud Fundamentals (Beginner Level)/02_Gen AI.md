@@ -1,4 +1,4 @@
-# 5.2 — GenAI (Generative AI)
+# 2 — GenAI (Generative AI)
 
 ## 1. What is Generative AI?
 
