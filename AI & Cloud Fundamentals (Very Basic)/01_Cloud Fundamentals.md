@@ -1,8 +1,6 @@
 
 # 1 — Cloud Fundamentals
 
-## 1. What you need to know
-
 ### What is Cloud Computing?
 
 **Cloud computing** is the delivery of computing resources—such as **servers, storage, databases, networking and software—over the internet on demand**, usually with usage-based pricing.
